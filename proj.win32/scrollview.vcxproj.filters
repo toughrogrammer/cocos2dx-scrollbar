@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\TableViewCell">
+      <UniqueIdentifier>{092ef0c2-0bf3-4b7c-91ba-067200251e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\DataManager">
+      <UniqueIdentifier>{9775ce75-c31e-4c92-b2de-f375e58c6b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\TableViewController">
+      <UniqueIdentifier>{e4aa285e-a21e-4b2a-a190-06e6f24024f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scrollbar">
+      <UniqueIdentifier>{058d8598-449a-4fc2-993f-483f62c3ccbb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TableViewCell.cpp">
+      <Filter>Classes\TableViewCell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\DataManager.cpp">
+      <Filter>Classes\DataManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TableViewController.cpp">
+      <Filter>Classes\TableViewController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ScrollBar.cpp">
+      <Filter>Classes\Scrollbar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TableViewCell.h">
+      <Filter>Classes\TableViewCell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\DataManager.h">
+      <Filter>Classes\DataManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TableViewController.h">
+      <Filter>Classes\TableViewController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ScrollBar.h">
+      <Filter>Classes\Scrollbar</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
